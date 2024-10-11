@@ -3,6 +3,7 @@ using System.Runtime.CompilerServices;
 
 namespace Types;
 
+#nullable disable
 public static class Program
 {
     private static void Main()
