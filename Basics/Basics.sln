@@ -12,6 +12,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ValueTypes", "ValueTypes\Va
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Strings", "Strings\Strings.csproj", "{16C4321A-EFA8-4510-9973-B5EC34E76AC0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Syntax", "Syntax\Syntax.csproj", "{9286F786-53CA-4325-9B2B-87F27066F7FF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -42,5 +44,9 @@ Global
 		{16C4321A-EFA8-4510-9973-B5EC34E76AC0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{16C4321A-EFA8-4510-9973-B5EC34E76AC0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{16C4321A-EFA8-4510-9973-B5EC34E76AC0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9286F786-53CA-4325-9B2B-87F27066F7FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9286F786-53CA-4325-9B2B-87F27066F7FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9286F786-53CA-4325-9B2B-87F27066F7FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9286F786-53CA-4325-9B2B-87F27066F7FF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
