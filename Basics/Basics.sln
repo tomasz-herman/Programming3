@@ -14,6 +14,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Strings", "Strings\Strings.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Syntax", "Syntax\Syntax.csproj", "{9286F786-53CA-4325-9B2B-87F27066F7FF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Arrays", "Arrays\Arrays.csproj", "{7C8EE2FB-E157-4F5F-B6FD-4120FD88638A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -48,5 +50,9 @@ Global
 		{9286F786-53CA-4325-9B2B-87F27066F7FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9286F786-53CA-4325-9B2B-87F27066F7FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9286F786-53CA-4325-9B2B-87F27066F7FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7C8EE2FB-E157-4F5F-B6FD-4120FD88638A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C8EE2FB-E157-4F5F-B6FD-4120FD88638A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C8EE2FB-E157-4F5F-B6FD-4120FD88638A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C8EE2FB-E157-4F5F-B6FD-4120FD88638A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
