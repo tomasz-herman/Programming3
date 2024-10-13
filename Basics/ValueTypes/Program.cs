@@ -7,6 +7,7 @@ public static class Program
         NumericTypes();
         BoolType();
         CharType();
+        ConvertClassAndParse();
     }
 
     private static void NumericTypes()
@@ -72,5 +73,14 @@ public static class Program
         char unicode = '\u00A9';
         char hex = '\x005C';
         Console.WriteLine($"Size of char: {sizeof(char)} bytes");
+    }
+
+    private static void ConvertClassAndParse()
+    {
+        bool fromInteger = Convert.ToBoolean(42);
+        int fromBool = Convert.ToInt32(fromInteger);
+        Console.WriteLine(fromBool);
+
+        int parsed = int.Parse("42");
     }
 }
