@@ -1,4 +1,7 @@
-﻿namespace ValueTypes;
+﻿using System.Diagnostics;
+using System.Runtime.CompilerServices;
+
+namespace ValueTypes;
 
 public static class Program
 {
@@ -12,6 +15,7 @@ public static class Program
 
     private static void NumericTypes()
     {
+        PrintCurrentMethodName();
         // Signed types:
         sbyte int8 = 100;
         short int16 = 10_000;
@@ -37,6 +41,7 @@ public static class Program
 
     private static void BoolType()
     {
+        PrintCurrentMethodName();
         bool isRaining = false;
         float temperature = 12.0f;
 
@@ -67,6 +72,7 @@ public static class Program
 
     private static void CharType()
     {
+        PrintCurrentMethodName();
         char a = 'a';
         char newLine = '\n';
         char quote = '\'';
@@ -77,10 +83,23 @@ public static class Program
 
     private static void ConvertClassAndParse()
     {
+        PrintCurrentMethodName();
         bool fromInteger = Convert.ToBoolean(42);
         int fromBool = Convert.ToInt32(fromInteger);
         Console.WriteLine(fromBool);
 
         int parsed = int.Parse("42");
+    }
+    
+            
+    [MethodImpl(MethodImplOptions.NoInlining)]
+    private static void PrintCurrentMethodName()
+    {
+        var st = new StackTrace();
+        var sf = st.GetFrame(1);
+
+        Console.WriteLine("***************************************");
+        Console.WriteLine($"* Method: {sf!.GetMethod()!.Name,27} *");
+        Console.WriteLine("***************************************");
     }
 }
