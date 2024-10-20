@@ -18,6 +18,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Arrays", "Arrays\Arrays.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Statements", "Statements\Statements.csproj", "{BFE27924-B48D-4313-8D8B-CAAC98B3834C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VariablesAndParameters", "VariablesAndParameters\VariablesAndParameters.csproj", "{A58E49C2-1120-48C4-B1E8-591A98C30F5D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -60,5 +62,9 @@ Global
 		{BFE27924-B48D-4313-8D8B-CAAC98B3834C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BFE27924-B48D-4313-8D8B-CAAC98B3834C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BFE27924-B48D-4313-8D8B-CAAC98B3834C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A58E49C2-1120-48C4-B1E8-591A98C30F5D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A58E49C2-1120-48C4-B1E8-591A98C30F5D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A58E49C2-1120-48C4-B1E8-591A98C30F5D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A58E49C2-1120-48C4-B1E8-591A98C30F5D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
