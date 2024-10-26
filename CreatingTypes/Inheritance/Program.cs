@@ -5,24 +5,24 @@ class Program
     static void Main(string[] args)
     {
         Base b = new Derived();
-        Console.WriteLine("Base -, Derived -");
+        Console.WriteLine("Base -, Derived - (warning, it hides method):");
         b.Method1();
-        Console.WriteLine("Base virtual, Derived -");
+        Console.WriteLine("Base virtual, Derived - (warning, it hides method):");
         b.Method2();
-        Console.WriteLine("Base abstract, Derived -");
-        b.Method3();
-        Console.WriteLine("Base -, Derived override");
-        b.Method4();
-        Console.WriteLine("Base virtual, Derived override");
+        Console.WriteLine("Base abstract, Derived - (error, abstract method needs implicit override)");
+        // b.Method3();
+        Console.WriteLine("Base -, Derived override (error, can override only abstract or virtual)");
+        // b.Method4();
+        Console.WriteLine("Base virtual, Derived override:");
         b.Method5();
-        Console.WriteLine("Base abstract, Derived override");
+        Console.WriteLine("Base abstract, Derived override:");
         b.Method6();
-        Console.WriteLine("Base -, Derived new");
+        Console.WriteLine("Base -, Derived new:");
         b.Method7();
-        Console.WriteLine("Base virtual, Derived new");
+        Console.WriteLine("Base virtual, Derived new:");
         b.Method8();
-        Console.WriteLine("Base abstract, Derived new");
-        b.Method9();
+        Console.WriteLine("Base abstract, Derived new (error, needs to override abstract method)");
+        // b.Method9();
     }
 }
 
