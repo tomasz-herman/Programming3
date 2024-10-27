@@ -10,6 +10,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Enums", "Enums\Enums.csproj
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Inheritance", "Inheritance\Inheritance.csproj", "{FB35482C-D934-45A4-964B-3CBFE050375C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Generics", "Generics\Generics.csproj", "{C7AC5BFF-2239-4FC7-8C24-C96BE28C16EE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -36,5 +38,9 @@ Global
 		{FB35482C-D934-45A4-964B-3CBFE050375C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FB35482C-D934-45A4-964B-3CBFE050375C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FB35482C-D934-45A4-964B-3CBFE050375C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C7AC5BFF-2239-4FC7-8C24-C96BE28C16EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C7AC5BFF-2239-4FC7-8C24-C96BE28C16EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C7AC5BFF-2239-4FC7-8C24-C96BE28C16EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C7AC5BFF-2239-4FC7-8C24-C96BE28C16EE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
