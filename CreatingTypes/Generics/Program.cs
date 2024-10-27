@@ -90,13 +90,13 @@ public static class Program
     private static void GenericsVariance()
     {
         PrintCurrentMethodName();
-        // Covariance allows down-casting generic type
+        // Covariance allows upcasting generic type
         var apples = new VariantStack<AppleTree>();
         apples.Push(new AppleTree());
         apples.Push(new AppleTree());
         IPoppable<Tree> poppableTrees = apples;
 
-        // Contravariance allows up-casting generic type
+        // Contravariance allows downcasting generic type
         var trees = new VariantStack<Tree>();
         trees.Push(new AppleTree());
         trees.Push(new OrangeTree());
