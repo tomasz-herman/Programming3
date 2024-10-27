@@ -2,6 +2,8 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Enumeration", "Enumeration\Enumeration.csproj", "{ECFF3F34-23D7-445C-9996-30252069FAC8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nullable", "Nullable\Nullable.csproj", "{9DC8A40D-A3D8-4CEF-ABBD-466892233D8A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +14,9 @@ Global
 		{ECFF3F34-23D7-445C-9996-30252069FAC8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ECFF3F34-23D7-445C-9996-30252069FAC8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ECFF3F34-23D7-445C-9996-30252069FAC8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9DC8A40D-A3D8-4CEF-ABBD-466892233D8A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9DC8A40D-A3D8-4CEF-ABBD-466892233D8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9DC8A40D-A3D8-4CEF-ABBD-466892233D8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9DC8A40D-A3D8-4CEF-ABBD-466892233D8A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
