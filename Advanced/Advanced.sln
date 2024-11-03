@@ -4,6 +4,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Enumeration", "Enumeration\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nullable", "Nullable\Nullable.csproj", "{9DC8A40D-A3D8-4CEF-ABBD-466892233D8A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExtensionMethods", "ExtensionMethods\ExtensionMethods.csproj", "{0D0BE029-096A-4F04-A87D-665177D723F7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +20,9 @@ Global
 		{9DC8A40D-A3D8-4CEF-ABBD-466892233D8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9DC8A40D-A3D8-4CEF-ABBD-466892233D8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9DC8A40D-A3D8-4CEF-ABBD-466892233D8A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0D0BE029-096A-4F04-A87D-665177D723F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D0BE029-096A-4F04-A87D-665177D723F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D0BE029-096A-4F04-A87D-665177D723F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D0BE029-096A-4F04-A87D-665177D723F7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
