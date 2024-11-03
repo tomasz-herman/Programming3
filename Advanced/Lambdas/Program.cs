@@ -1,6 +1,6 @@
 ﻿using System.Diagnostics;
 
-namespace Lamdas;
+namespace Lambdas;
 
 class Program
 {
