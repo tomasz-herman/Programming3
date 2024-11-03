@@ -13,6 +13,11 @@ class Program
         {
             Console.Write(c);
         }
-        
+
+        Console.WriteLine();
+        foreach (var n in 10)
+        {
+            Console.Write(n);
+        }
     }
 }

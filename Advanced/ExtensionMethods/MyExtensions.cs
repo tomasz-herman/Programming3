@@ -16,4 +16,9 @@ public static class MyExtensions
                 yield return item;
         }
     }
+    
+    public static IEnumerator<int> GetEnumerator(this int i)
+    {
+        while (i-- > 0) yield return i;
+    }
 }
