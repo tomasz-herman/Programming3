@@ -1,0 +1,16 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FunctionalProgramming", "FunctionalProgramming\FunctionalProgramming.csproj", "{164906B9-9002-42DA-98CC-9DF633A20493}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{164906B9-9002-42DA-98CC-9DF633A20493}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{164906B9-9002-42DA-98CC-9DF633A20493}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{164906B9-9002-42DA-98CC-9DF633A20493}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{164906B9-9002-42DA-98CC-9DF633A20493}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
