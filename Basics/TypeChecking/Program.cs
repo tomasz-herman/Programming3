@@ -3,20 +3,21 @@ using System.Runtime.CompilerServices;
 
 namespace TypeChecking;
 
-public class Base { }
-public class Derived : Base 
-{ 
-    int Foo() => 42;
-}
+public class Base;
+public class Derived : Base;
 
-public class Animal { }
-public class Giraffe : Animal { }
+public class Animal;
+public class Giraffe : Animal;
 
 public static class Program
 {
-    private static void Main(string[] args)
+    private static void Main()
     {
-        Console.WriteLine("Hello, World!");
+        TypePattern();
+        DeclarationPattern();
+        AsOperator();
+        CastExpression();
+        TypeOfExpression();
     }
 
     private static void TypePattern()
