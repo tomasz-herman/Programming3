@@ -22,6 +22,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tuples", "Tuples\Tuples.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnonymousTypes", "AnonymousTypes\AnonymousTypes.csproj", "{1DEDE1AB-FB32-452B-BC89-7277450187C1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Records", "Records\Records.csproj", "{BE6EC266-D498-45D6-A1FE-77A09BC14952}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -72,5 +74,9 @@ Global
 		{1DEDE1AB-FB32-452B-BC89-7277450187C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1DEDE1AB-FB32-452B-BC89-7277450187C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1DEDE1AB-FB32-452B-BC89-7277450187C1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BE6EC266-D498-45D6-A1FE-77A09BC14952}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE6EC266-D498-45D6-A1FE-77A09BC14952}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE6EC266-D498-45D6-A1FE-77A09BC14952}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE6EC266-D498-45D6-A1FE-77A09BC14952}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
