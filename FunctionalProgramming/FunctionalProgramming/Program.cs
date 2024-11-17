@@ -1,16 +1,24 @@
-﻿using System.Diagnostics;
+﻿// #define SHOP
+
+using System.Diagnostics;
+#if SHOP
+using FunctionalProgramming.Events;
+#endif
 
 namespace FunctionalProgramming;
 
 class Program
 {
-    static void Main(string[] args)
+    static void Main()
     {
         BinaryTreeTests();
         DictionaryTests();
         NumericsTests();
         BenchmarkingTests();
         FactoryMethodsTests();
+        #if SHOP
+        ShopTests();
+        #endif
     }
     
     private static void BinaryTreeTests()
@@ -86,6 +94,62 @@ class Program
         Console.WriteLine($"Error: {Math.Abs(piEstimation - Math.PI)}");
     }
     
+    #if SHOP
+    private static void ShopTests()
+    {
+        PrintCurrentMethodName();
+        Shop shop = new Shop();
+        List<Product> delivery1 = new List<Product>
+        {
+            new ("Banana", 2.99m, 100),
+            new ("Apple", 1.99m, 100),
+            new ("Orange", 3.99m, 100),
+            new ("Flour", 1.29m, 60),
+            new ("Sugar", 2.19m, 60),
+            new ("Milk", 2.49m, 48),
+        };
+        List<Product> delivery2 = new List<Product>
+        {
+            new ("Flour", 1.49m, 30),
+            new ("Sugar", 2.09m, 30),
+            new ("Milk", 2.49m, 24),
+        };
+        
+        // 
+        // Adding a Product to the Shop should trigger the ElementAdded event, notifying about the new product via ElementChangedEventArgs.
+        // Removing a Product from the Shop should trigger the ElementRemoved event, notifying when a product has been removed via ElementChangedEventArgs.
+        // Changing a Product's Property (like Price or Quantity) should trigger the ElementPropertyChanged event, notifying about the change.
+        //
+        
+        Console.WriteLine("Initial delivery...");
+        delivery1.ForEach(product => shop.Add(product));
+        Console.WriteLine("Simulating shopping day...");
+        delivery1[1].Quantity -= 20;
+        delivery1[3].Quantity -= 20;
+        delivery1[3].Quantity -= 40;
+        delivery1[4].Quantity -= 20;
+        delivery1[4].Quantity -= 30;
+        delivery1[4].Quantity -= 10;
+        delivery1[0].Quantity -= 20;
+        delivery1[5].Quantity -= 12;
+        delivery1[5].Quantity -= 12;
+        delivery1[5].Quantity -= 12;
+        delivery1[2].Quantity -= 20;
+        delivery1[5].Quantity -= 12;
+        Console.WriteLine("Restock...");
+        delivery2.ForEach(product => shop.Add(product));
+        Console.WriteLine("Simulating shopping day...");
+        delivery1[3].Quantity -= 20;
+        delivery1[4].Quantity -= 20;
+        delivery1[4].Quantity -= 10;        
+        delivery1[1].Quantity -= 20;
+        delivery1[5].Quantity -= 12;
+        delivery1[5].Quantity -= 12;
+        Console.WriteLine("Cleaning aisles...");
+        shop.CleanAisles();
+    }
+    #endif
+    
     private static void PrintCurrentMethodName()
     {
         var st = new StackTrace();
@@ -96,3 +160,26 @@ class Program
         Console.WriteLine("***************************************");
     }
 }
+
+// SOLUTION:
+// shop.ElementAdded += (_, args) =>
+// {
+//     Console.WriteLine($"New Product available {args.Element}");
+// };
+//
+// shop.ElementRemoved += (_, args) =>
+// {
+//     Console.WriteLine($"{args.Element.Name} is no longer available");
+// };
+//
+// shop.ElementPropertyChanged += (_, args) =>
+// {
+//     var value = args.PropertyName switch
+//     {
+//         nameof(Product.Price) => $"{args.Element.Price:C}",
+//         nameof(Product.Quantity) => $"{args.Element.Quantity}",
+//         _ => "Unknown"
+//     };
+//
+//     Console.WriteLine($"Product {args.Element.Name} changed, new {args.PropertyName} = {value}");
+// };
