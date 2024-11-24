@@ -34,7 +34,7 @@ public static class Program
         IEnumerable<MemberInfo> members = typeof(Person).GetTypeInfo().DeclaredMembers;
         foreach (MemberInfo member in members)
         {
-            Console.WriteLine($"{member.MemberType,14}: {member}");
+            Console.WriteLine($"{member.MemberType,12}: {member}");
         }
     }
 

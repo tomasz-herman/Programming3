@@ -24,6 +24,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnonymousTypes", "Anonymous
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Records", "Records\Records.csproj", "{BE6EC266-D498-45D6-A1FE-77A09BC14952}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PreprocessorDirectives", "PreprocessorDirectives\PreprocessorDirectives.csproj", "{990E0DDF-D956-408C-96C6-86E5C587EB25}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -78,5 +80,9 @@ Global
 		{BE6EC266-D498-45D6-A1FE-77A09BC14952}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BE6EC266-D498-45D6-A1FE-77A09BC14952}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BE6EC266-D498-45D6-A1FE-77A09BC14952}.Release|Any CPU.Build.0 = Release|Any CPU
+		{990E0DDF-D956-408C-96C6-86E5C587EB25}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{990E0DDF-D956-408C-96C6-86E5C587EB25}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{990E0DDF-D956-408C-96C6-86E5C587EB25}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{990E0DDF-D956-408C-96C6-86E5C587EB25}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
