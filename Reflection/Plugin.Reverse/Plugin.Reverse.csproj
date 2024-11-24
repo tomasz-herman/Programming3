@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\Plugin.Common\Plugin.Common.csproj" />
+    </ItemGroup>
+
+    <Target Name="PostBuild" AfterTargets="PostBuildEvent">
+        <MakeDir Directories="..\Plugin.Host\Plugins\" />
+        <Copy SourceFiles="$(OutputPath)$(AssemblyName).dll" DestinationFolder="..\Plugin.Host\Plugins\" />
+    </Target>
+
+</Project>
