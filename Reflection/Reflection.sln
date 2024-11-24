@@ -12,6 +12,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Plugin.Host", "Plugin.Host\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Plugin.Reverse", "Plugin.Reverse\Plugin.Reverse.csproj", "{FF3D00C8-C6D6-4D0C-9163-1908964AA8DA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Introduction", "Introduction\Introduction.csproj", "{C2E94F6A-3FF3-4B46-A622-BD0B5153A99C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomAttributes", "CustomAttributes\CustomAttributes.csproj", "{8F81C6BC-DCBD-4321-9FF8-339C01ACAA7E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -42,5 +46,13 @@ Global
 		{FF3D00C8-C6D6-4D0C-9163-1908964AA8DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FF3D00C8-C6D6-4D0C-9163-1908964AA8DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FF3D00C8-C6D6-4D0C-9163-1908964AA8DA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C2E94F6A-3FF3-4B46-A622-BD0B5153A99C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2E94F6A-3FF3-4B46-A622-BD0B5153A99C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2E94F6A-3FF3-4B46-A622-BD0B5153A99C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2E94F6A-3FF3-4B46-A622-BD0B5153A99C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8F81C6BC-DCBD-4321-9FF8-339C01ACAA7E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F81C6BC-DCBD-4321-9FF8-339C01ACAA7E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F81C6BC-DCBD-4321-9FF8-339C01ACAA7E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F81C6BC-DCBD-4321-9FF8-339C01ACAA7E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
