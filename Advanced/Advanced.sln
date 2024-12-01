@@ -28,6 +28,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PreprocessorDirectives", "P
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exceptions", "Exceptions\Exceptions.csproj", "{A51ECCDF-82EE-40AB-B92F-0ECA209F4572}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XmlDocumentation", "XmlDocumentation\XmlDocumentation.csproj", "{1E051AD7-8149-4A2F-84B4-957DDB8F77F2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -90,5 +92,9 @@ Global
 		{A51ECCDF-82EE-40AB-B92F-0ECA209F4572}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A51ECCDF-82EE-40AB-B92F-0ECA209F4572}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A51ECCDF-82EE-40AB-B92F-0ECA209F4572}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1E051AD7-8149-4A2F-84B4-957DDB8F77F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E051AD7-8149-4A2F-84B4-957DDB8F77F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E051AD7-8149-4A2F-84B4-957DDB8F77F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E051AD7-8149-4A2F-84B4-957DDB8F77F2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
