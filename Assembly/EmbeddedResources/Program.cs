@@ -1,4 +1,5 @@
-﻿using System.Reflection;
+﻿using System.Globalization;
+using System.Reflection;
 using System.Resources;
 
 namespace EmbeddedResources;
@@ -14,5 +15,11 @@ class Program
             StreamReader sr = new StreamReader(s);
             Console.WriteLine(sr.ReadLine());
         }
+        
+        ResourceManager rm = new ResourceManager("EmbeddedResources.Resources", typeof(Program).Assembly);
+        string? welcome = rm.GetString("Welcome", CultureInfo.CreateSpecificCulture("pl"));
+        string? demo = rm.GetString("Demo");
+        Console.WriteLine(welcome);
+        Console.WriteLine(demo);
     }
 }
