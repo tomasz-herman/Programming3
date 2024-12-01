@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Streams", "Streams\Streams.csproj", "{E95008C0-F5E3-408C-B83C-9FEDBD5B0E89}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Logger", "Logger\Logger.csproj", "{521A6923-C60C-4436-B6FA-7F2D60C44873}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E95008C0-F5E3-408C-B83C-9FEDBD5B0E89}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E95008C0-F5E3-408C-B83C-9FEDBD5B0E89}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E95008C0-F5E3-408C-B83C-9FEDBD5B0E89}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E95008C0-F5E3-408C-B83C-9FEDBD5B0E89}.Release|Any CPU.Build.0 = Release|Any CPU
+		{521A6923-C60C-4436-B6FA-7F2D60C44873}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{521A6923-C60C-4436-B6FA-7F2D60C44873}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{521A6923-C60C-4436-B6FA-7F2D60C44873}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{521A6923-C60C-4436-B6FA-7F2D60C44873}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
