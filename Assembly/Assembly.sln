@@ -2,6 +2,10 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmbeddedResources", "EmbeddedResources\EmbeddedResources.csproj", "{336B1D02-E786-427E-9986-694985270187}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Plugin.Host", "Plugin.Host\Plugin.Host.csproj", "{EF7C4E07-0717-4DC9-BA89-03B3F6CFA5DD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Plugin.Common", "Plugin.Common\Plugin.Common.csproj", "{AC8F5B8F-59A9-4702-9C2A-FBF3E3810E5A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +16,13 @@ Global
 		{336B1D02-E786-427E-9986-694985270187}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{336B1D02-E786-427E-9986-694985270187}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{336B1D02-E786-427E-9986-694985270187}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EF7C4E07-0717-4DC9-BA89-03B3F6CFA5DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF7C4E07-0717-4DC9-BA89-03B3F6CFA5DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF7C4E07-0717-4DC9-BA89-03B3F6CFA5DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF7C4E07-0717-4DC9-BA89-03B3F6CFA5DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC8F5B8F-59A9-4702-9C2A-FBF3E3810E5A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC8F5B8F-59A9-4702-9C2A-FBF3E3810E5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC8F5B8F-59A9-4702-9C2A-FBF3E3810E5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC8F5B8F-59A9-4702-9C2A-FBF3E3810E5A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
