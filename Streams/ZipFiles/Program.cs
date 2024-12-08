@@ -17,22 +17,9 @@ class Program
 
     static void Cleanup()
     {
-        try
-        {
+        if (File.Exists("../output.zip"))
             File.Delete("../output.zip");
-        }
-        catch (Exception)
-        {
-            // ignored
-        }
-
-        try
-        {
+        if (Directory.Exists("../output"))
             Directory.Delete("../output", true);
-        }
-        catch (Exception)
-        {
-            // ignored
-        }
     }
 }
