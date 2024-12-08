@@ -12,6 +12,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pipes.Server", "Pipes.Serve
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pipes.Anonymous", "Pipes.Anonymous\Pipes.Anonymous.csproj", "{07B93A59-2AF0-4D75-81BE-643F0B39151D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZipBomb", "ZipBomb\ZipBomb.csproj", "{EE898F20-2F5D-4F47-8742-8AEDF146CF06}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Compression", "Compression\Compression.csproj", "{7E846C2A-DA2E-4540-8709-2C86E081F5A0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -42,5 +46,13 @@ Global
 		{07B93A59-2AF0-4D75-81BE-643F0B39151D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{07B93A59-2AF0-4D75-81BE-643F0B39151D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{07B93A59-2AF0-4D75-81BE-643F0B39151D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EE898F20-2F5D-4F47-8742-8AEDF146CF06}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE898F20-2F5D-4F47-8742-8AEDF146CF06}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE898F20-2F5D-4F47-8742-8AEDF146CF06}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE898F20-2F5D-4F47-8742-8AEDF146CF06}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7E846C2A-DA2E-4540-8709-2C86E081F5A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E846C2A-DA2E-4540-8709-2C86E081F5A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E846C2A-DA2E-4540-8709-2C86E081F5A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E846C2A-DA2E-4540-8709-2C86E081F5A0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
