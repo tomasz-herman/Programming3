@@ -1,0 +1,17 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" d:DesignWidth="400" d:DesignHeight="150"
+        Width="400" Height="100"
+        x:Class="AsyncAwaitUI.MainWindow"
+        Title="AsyncAwaitUI">
+    <Grid ColumnDefinitions="160,*" RowDefinitions="Auto,Auto,Auto">
+        <Label Grid.Row="0" Grid.Column="0">From:</Label>
+        <NumericUpDown Grid.Row="0" Grid.Column="1" Name="From" Value="0"/>
+        <Label Grid.Row="1" Grid.Column="0">To:</Label>
+        <NumericUpDown Grid.Row="1" Grid.Column="1" Name="To" Value="10000000"/>
+        <Button Grid.Row="2" Grid.Column="0" Click="Button_OnClick">Calculate</Button>
+        <Label Grid.Row="2" Grid.Column="1" Name="Result"/>
+    </Grid>
+</Window>
