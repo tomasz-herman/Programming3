@@ -12,6 +12,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AyncAwaitPrimes", "AyncAwai
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsyncAwaitUI", "AsyncAwaitUI\AsyncAwaitUI.csproj", "{915C144D-7AD0-4C35-AAF8-857E2139F73C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsyncAwaitCancellation", "AsyncAwaitCancellation\AsyncAwaitCancellation.csproj", "{7B18EE45-7454-4B2D-9F21-0ABA2DB095D1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -42,5 +44,9 @@ Global
 		{915C144D-7AD0-4C35-AAF8-857E2139F73C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{915C144D-7AD0-4C35-AAF8-857E2139F73C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{915C144D-7AD0-4C35-AAF8-857E2139F73C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7B18EE45-7454-4B2D-9F21-0ABA2DB095D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B18EE45-7454-4B2D-9F21-0ABA2DB095D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B18EE45-7454-4B2D-9F21-0ABA2DB095D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B18EE45-7454-4B2D-9F21-0ABA2DB095D1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
