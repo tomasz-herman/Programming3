@@ -6,6 +6,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SynchronizationContexts", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tasks", "Tasks\Tasks.csproj", "{C25A2DDC-61A1-4E2D-82F1-EE0D1F3AE9C1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsyncAwaitThreads", "AsyncAwaitThreads\AsyncAwaitThreads.csproj", "{D34B267D-8CFE-4DE1-A9CA-44B0C14E1001}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,5 +26,9 @@ Global
 		{C25A2DDC-61A1-4E2D-82F1-EE0D1F3AE9C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C25A2DDC-61A1-4E2D-82F1-EE0D1F3AE9C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C25A2DDC-61A1-4E2D-82F1-EE0D1F3AE9C1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D34B267D-8CFE-4DE1-A9CA-44B0C14E1001}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D34B267D-8CFE-4DE1-A9CA-44B0C14E1001}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D34B267D-8CFE-4DE1-A9CA-44B0C14E1001}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D34B267D-8CFE-4DE1-A9CA-44B0C14E1001}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
