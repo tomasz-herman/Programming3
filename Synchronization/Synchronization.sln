@@ -12,6 +12,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpinLockDemo", "SpinLockDem
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SemaphoreExample", "SemaphoreExample\SemaphoreExample.csproj", "{EAFEC20A-AE65-4217-9E17-3C42AD7F54DC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventWaitHandlesExample", "EventWaitHandlesExample\EventWaitHandlesExample.csproj", "{76C8FE0F-51C7-409E-A8A3-BF268F5DEF6B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BarrierExample", "BarrierExample\BarrierExample.csproj", "{68218CDF-9DA5-46C1-8A5D-FB378528C115}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -42,5 +46,13 @@ Global
 		{EAFEC20A-AE65-4217-9E17-3C42AD7F54DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EAFEC20A-AE65-4217-9E17-3C42AD7F54DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EAFEC20A-AE65-4217-9E17-3C42AD7F54DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{76C8FE0F-51C7-409E-A8A3-BF268F5DEF6B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76C8FE0F-51C7-409E-A8A3-BF268F5DEF6B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76C8FE0F-51C7-409E-A8A3-BF268F5DEF6B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76C8FE0F-51C7-409E-A8A3-BF268F5DEF6B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{68218CDF-9DA5-46C1-8A5D-FB378528C115}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68218CDF-9DA5-46C1-8A5D-FB378528C115}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68218CDF-9DA5-46C1-8A5D-FB378528C115}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68218CDF-9DA5-46C1-8A5D-FB378528C115}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
