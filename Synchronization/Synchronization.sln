@@ -18,6 +18,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BarrierExample", "BarrierEx
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlockingCollectionExample", "BlockingCollectionExample\BlockingCollectionExample.csproj", "{9502852F-13CD-4673-836F-25745A66FE93}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Workshop", "Workshop\Workshop.csproj", "{FBC4EDB7-EDA5-4AB8-8E8E-4AC71F95B0E9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -60,5 +62,9 @@ Global
 		{9502852F-13CD-4673-836F-25745A66FE93}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9502852F-13CD-4673-836F-25745A66FE93}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9502852F-13CD-4673-836F-25745A66FE93}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FBC4EDB7-EDA5-4AB8-8E8E-4AC71F95B0E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FBC4EDB7-EDA5-4AB8-8E8E-4AC71F95B0E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FBC4EDB7-EDA5-4AB8-8E8E-4AC71F95B0E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FBC4EDB7-EDA5-4AB8-8E8E-4AC71F95B0E9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
