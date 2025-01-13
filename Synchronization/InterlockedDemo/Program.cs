@@ -1,10 +1,14 @@
-﻿namespace InterlockedDemo;
+﻿using System.Diagnostics;
+
+namespace InterlockedDemo;
 
 class Program
 {
     private static async Task Main()
     {
         int counter = 0, times = 1_000_000;
+                
+        var sw = Stopwatch.StartNew();
         var increment = Task.Run(() =>
         {
             for (int i = 0; i < times; i++)
@@ -20,6 +24,9 @@ class Program
         
         await Task.WhenAll(increment, decrement);
 
-        Console.WriteLine($"Counter: {counter}");
+        sw.Stop();
+
+        Console.WriteLine($"Counter Value: {counter}");
+        Console.WriteLine($"Time: {sw.Elapsed}");
     }
 }

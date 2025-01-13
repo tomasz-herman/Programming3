@@ -1,4 +1,6 @@
-﻿namespace MutexDemo;
+﻿using System.Diagnostics;
+
+namespace SpinLockDemo;
 
 class Program
 {
@@ -6,6 +8,8 @@ class Program
     {
         int counter = 0, times = 1_000_000;
         SpinLock spinLock = new SpinLock();
+        
+        var sw = Stopwatch.StartNew();
 
         var increment = Task.Run(() =>
         {
@@ -43,6 +47,9 @@ class Program
 
         await Task.WhenAll(increment, decrement);
 
+        sw.Stop();
+
         Console.WriteLine($"Counter Value: {counter}");
+        Console.WriteLine($"Time: {sw.Elapsed}");
     }
 }
