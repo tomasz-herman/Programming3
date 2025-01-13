@@ -5,7 +5,7 @@ public class Workshop
     private const int AssemblyLineCapacity = 8;
 
     private Sleigh Sleigh { get; } = new();
-    private AssemblyLine AssemblyLine { get; } = new(AssemblyLineCapacity);
+    private AssemblyLine<Gift> AssemblyLine { get; } = new(AssemblyLineCapacity);
 
     public async Task Start(CancellationToken token)
     {

@@ -1,6 +1,6 @@
 namespace Workshop;
 
-public class AssemblyLine : IAssemblyLine<Gift>
+public class AssemblyLine<T> : IAssemblyLine<T>
 {
     // TODO: Implement assembly line class in a thread-safe way.
     public AssemblyLine(int capacity)
@@ -8,22 +8,22 @@ public class AssemblyLine : IAssemblyLine<Gift>
         
     }
     
-    public Gift Dequeue()
+    public T Dequeue()
     {
         throw new NotImplementedException();
     }
 
-    public void Enqueue(Gift item)
+    public void Enqueue(T item)
     {
         throw new NotImplementedException();
     }
 
-    public Task<Gift?> TryDequeueAsync(int timeoutMilliseconds, CancellationToken cancellationToken)
+    public Task<T?> TryDequeueAsync(int timeoutMilliseconds, CancellationToken cancellationToken)
     {
         throw new NotImplementedException();
     }
 
-    public Task<bool> TryEnqueueAsync(Gift item, int timeoutMilliseconds, CancellationToken cancellationToken)
+    public Task<bool> TryEnqueueAsync(T item, int timeoutMilliseconds, CancellationToken cancellationToken)
     {
         throw new NotImplementedException();
     }

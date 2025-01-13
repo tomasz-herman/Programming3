@@ -6,14 +6,15 @@ public class Sleigh
 {
     public const int MaxPayload = 1000;
 
-    // TODO: Choose internal collection implementation
-    private ICollection<Gift> Gifts { get; } = null!;
-    public int Payload { get; private set; }
+    private ICollection<Gift> Gifts { get; } = new List<Gift>();
+    private int Payload { get; set; }
 
     public bool PushGift(Gift gift)
     {
-        // TODO: Implement push gift
-        return false;
+        if (gift.Weight + Payload > MaxPayload) return false;
+        Gifts.Add(gift);
+        Payload += gift.Weight;
+        return true;
     }
 
     public void DeliverGifts()
