@@ -20,8 +20,8 @@ public partial class Program
     [DllImport("StringsCpp", CharSet = CharSet.Ansi)]
     public static extern void Encode(StringBuilder str);
     
-    [DllImport("StringsCpp", CharSet = CharSet.Ansi)]
-    public static extern void Encode(byte[] str);
+    [LibraryImport("StringsCpp", StringMarshalling = StringMarshalling.Utf8)]
+    public static partial void Encode(byte[] str);
 
     static void Main(string[] args)
     {

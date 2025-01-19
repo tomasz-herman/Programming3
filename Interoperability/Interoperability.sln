@@ -10,6 +10,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StringsCSharp", "StringsCSh
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CallbacksCSharp", "CallbacksCSharp\CallbacksCSharp.csproj", "{2122552E-02D0-41CC-8AA2-973FA9871C1E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StructsCSharp", "StructsCSharp\StructsCSharp.csproj", "{A4DE1E3A-8BA9-48F2-8F0D-B2C629802611}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -36,5 +38,9 @@ Global
 		{2122552E-02D0-41CC-8AA2-973FA9871C1E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2122552E-02D0-41CC-8AA2-973FA9871C1E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2122552E-02D0-41CC-8AA2-973FA9871C1E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A4DE1E3A-8BA9-48F2-8F0D-B2C629802611}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A4DE1E3A-8BA9-48F2-8F0D-B2C629802611}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A4DE1E3A-8BA9-48F2-8F0D-B2C629802611}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A4DE1E3A-8BA9-48F2-8F0D-B2C629802611}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
