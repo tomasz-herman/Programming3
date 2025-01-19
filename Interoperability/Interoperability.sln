@@ -4,6 +4,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloCSharp", "HelloCSharp\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PerformanceCSharp", "PerformanceCSharp\PerformanceCSharp.csproj", "{0D410216-F79E-42D3-B179-7E32FF0FF9B7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SafeHandleCSharp", "SafeHandleCSharp\SafeHandleCSharp.csproj", "{97C55404-4A36-4FC0-A2BC-A60A0749A5CB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +20,9 @@ Global
 		{0D410216-F79E-42D3-B179-7E32FF0FF9B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0D410216-F79E-42D3-B179-7E32FF0FF9B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0D410216-F79E-42D3-B179-7E32FF0FF9B7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{97C55404-4A36-4FC0-A2BC-A60A0749A5CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97C55404-4A36-4FC0-A2BC-A60A0749A5CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97C55404-4A36-4FC0-A2BC-A60A0749A5CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97C55404-4A36-4FC0-A2BC-A60A0749A5CB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
